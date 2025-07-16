@@ -418,17 +418,15 @@ footer input[type="text"], input[type="email"], textarea{
      .skill {
     margin: 20px 20px;
 } 
+.footer{
+    max-width: 100%;
+    padding: 40px;
+    gap: 40px;
 }
-
-
-
-
-
-
-
-
-
-
+.footer .section-description{
+    text-align:justify;
+}
+}
 @media screen and (min-width:992px) and (max-width:1024px){
         .about .about-title{
         font-size: 16px;
@@ -439,4 +437,5 @@ footer input[type="text"], input[type="email"], textarea{
 .experience{
     padding: 0 20px;
 }
+
 }
